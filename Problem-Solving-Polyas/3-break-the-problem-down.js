@@ -14,7 +14,10 @@ const charCount = str => {
 
 const charCount = str => {
     // make an object to return at the end
-    // loop over the string
+    // loop over the string, for each character
+        // if the char is a number/letter AND is a key in object, add 1 to count
+        // if the char is a number/letter AND not in the object, add it and set the value to 1
+        // if the char is something else (space, period, etc.) don't do anything
     // return an object at the end
 }
 
