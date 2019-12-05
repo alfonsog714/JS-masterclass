@@ -1,11 +1,23 @@
 /* 
     Break the problem down
+        - Pseudocode
 */
 
 // =============================================================================================
 // Write a function which takes in a string and returns countws of each character in the string.
 // =============================================================================================
  
+const charCount = str => {
+    //  do something
+    // return an object with keys that are lowercase alphanumeric characters in the string; values should be how many times they appear in the string.
+}
+
+const charCount = str => {
+    // make an object to return at the end
+    // loop over the string
+    // return an object at the end
+}
+
 charCount("aaaa");
 /*
     {
@@ -43,3 +55,4 @@ charCount("Your PIN number is 1234!");
         y:1
     }
 */
+
