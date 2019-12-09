@@ -75,3 +75,8 @@ const same = (arr1, arr2) => {
     }
     return true;
 }
+
+/*  
+    Idea behind frequency counters:
+        Construct a profile, usually an object, of the contents or breakdown of an array or string. Afterwards, you can quickly compare that object to another "profile" or object.
+*/
