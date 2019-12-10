@@ -12,3 +12,11 @@
     countUniqueValues([]) returns 0
     countUniqueValues([-2,-1,-1,0,1]) returns 4
 */
+
+// My solution (obvious solution, in my opinion)
+function countUniqueValues(arr) {
+    const arrSet = new Set(arr);
+    const setLength = arrSet.size;
+
+    return setLength;
+};
