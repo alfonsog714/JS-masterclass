@@ -20,3 +20,25 @@ function countUniqueValues(arr) {
 
     return setLength;
 };
+
+// My second solution before checking instructor's solution
+function countUniqueValues(arr) {
+
+    if(arr.length === 0) return 0;
+
+    let pointer1 = 0;
+    let pointer2 = 0;
+    const uniqueArray = [arr[pointer1]];
+
+    while(pointer1 < arr.length) {
+        if(arr[pointer1] === uniqueArray[pointer2]) {
+          pointer1++;
+        } else {
+          uniqueArray.push(arr[pointer1]);
+          pointer1++;
+          pointer2++;
+        };
+    };
+
+    return uniqueArray.length;
+};
