@@ -25,3 +25,9 @@ function countDown(num) {
     num--;
     countDown(num);
 }
+
+// Another example of a recursive function
+function sumRange(num) {
+    if(num === 1) return 1;
+    return num + sumRange(num-1);
+}
