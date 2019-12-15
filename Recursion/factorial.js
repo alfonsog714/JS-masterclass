@@ -18,3 +18,14 @@ function factorial(num) {
     };
     return total;
 }
+
+/* 
+    ============================
+    Recursive factorial function
+    ============================
+*/
+
+function factorial(num) {
+    if(num === 1) return 1
+    return num * factorial(num - 1);
+}
