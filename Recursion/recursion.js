@@ -13,6 +13,13 @@
     Base Case
     =========
     The condition where the recursion ends. This is the most IMPORTANT concept to understand.
+
+    ============================
+    Common Pitfalls of recursion
+    ============================
+    - Often times, people forget to have a base case.
+    - Forgetting to return, or returning the wrong thing.
+    - Stack overflow, meaning too many recursive calls.
 */
 
 // Recursion example
