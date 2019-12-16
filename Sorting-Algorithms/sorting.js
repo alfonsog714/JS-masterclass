@@ -9,5 +9,6 @@
     ========
     - Sorting numbers from smallest to largest
     - Sorting names alphabetically
-    - Sorting movies based on release year
+    - Sorting movies based on release year 
+    - Sorting movies based on revenue
 */
