@@ -11,4 +11,10 @@
     - Sorting names alphabetically
     - Sorting movies based on release year 
     - Sorting movies based on revenue
+
+    =============================
+    Why do we need to learn this?
+    =============================
+    - Sorting is an incredibly common task, so it's good to know how it works.
+    - There are many different ways to sort things, and different techniques have their own advantages and disadvantages.
 */
