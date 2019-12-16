@@ -17,6 +17,12 @@
         - If the value is too small, move the left pointer up
         - If the valie is too large, move the right pointer down
     - If you never find the value, return -1
+
+    ======================
+    Big O of Binary Search
+    ======================
+    - Worst and average case is O(log n)
+    - Best case is O(1)
 */
 
 const states = [
