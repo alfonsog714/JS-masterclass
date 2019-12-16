@@ -75,4 +75,33 @@ function bubbleSort(arr) {
     };
 
     return arr;
-}
+};
+
+/* 
+    ==============================================
+    Optimized bubble sort for nearly sorted arrays
+    ==============================================
+    - All that was added was a variable called noSwaps that helps prevent continuing to iterate through the array even after its all sorted.
+*/
+
+function bubbleSort(arr){
+    var noSwaps;
+
+    for(var i = arr.length; i > 0; i--) {
+        noSwaps = true;
+        for(var j = 0; j < i - 1; j++) {
+            if(arr[j] > arr[j+1]) {
+                // SWAP!
+                var temp = arr[j];
+                arr[j] = arr[j+1];
+                arr[j+1] = temp;
+                noSwaps = false;
+            };
+        }
+        if(noSwaps) break;
+    };
+
+    return arr;
+};
+
+bubbleSort([8,1,2,3,4,5,6,7]);
