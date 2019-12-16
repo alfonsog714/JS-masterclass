@@ -17,6 +17,8 @@
     Linear Search
     =============
     An algorithm where we begin at the beginning of the array and loop through all of the items in an array until a condition is met. We then return something.
+
+    Time Complexity - O(n)
 */
 
 const states = [
@@ -105,6 +107,20 @@ function linearSearch(arr, val) {
         if(arr[i] === val) {
             return i;
         };
+    };
+    return -1;
+};
+
+/* 
+    =====================
+    Instructor's solution
+    =====================
+    It was essentially the same thing, aside from making the if statement one line and using var instead of let
+*/
+
+function linearSearch(arr, val) {
+    for(var i = 0; i < arr.length; i++) {
+        if(arr[i] === val) return i;
     };
     return -1;
 };
