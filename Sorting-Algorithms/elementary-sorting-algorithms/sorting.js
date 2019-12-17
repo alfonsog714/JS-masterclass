@@ -22,6 +22,7 @@
     Website to view algorithms in play
     ==================================
     https://www.toptal.com/developers/sorting-algorithms
+    https://visualgo.net/en/sorting
 
     =====
     Recap
