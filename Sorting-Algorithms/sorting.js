@@ -22,4 +22,12 @@
     Website to view algorithms in play
     ==================================
     https://www.toptal.com/developers/sorting-algorithms
+
+    =====
+    Recap
+    =====
+    - Sorting is fundamental!
+    - Bubble sort, selection sort, and insertion sort are all roughly equivalent
+    - All have average time complexities that are quadratic
+    - We can do better than the elementary sorting algorithms, but we need more complex algorithms
 */
