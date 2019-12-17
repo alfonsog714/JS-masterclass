@@ -17,4 +17,9 @@
     =============================
     - Sorting is an incredibly common task, so it's good to know how it works.
     - There are many different ways to sort things, and different techniques have their own advantages and disadvantages.
+
+    ==================================
+    Website to view algorithms in play
+    ==================================
+    https://www.toptal.com/developers/sorting-algorithms
 */
