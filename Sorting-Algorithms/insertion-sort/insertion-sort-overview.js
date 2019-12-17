@@ -7,6 +7,6 @@
     =============
     Big O Runtime
     =============
-    - O(n^2)
+    - Best case O(n) Worse case O(n^2)
     - When the data is nearly sorted, this algorithm can have one of the best runtimes.
 */

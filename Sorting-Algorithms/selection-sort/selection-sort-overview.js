@@ -8,6 +8,6 @@
     =============
     Big O Runtime
     =============
-    - O(n^2)
+    - Best and worst case O(n^2)
     - Potentially a better algorithm to use if for some reason you want to minimize how many swaps you do.
 */

@@ -13,6 +13,6 @@
     =============
     Big O runtime
     =============
-    - O(n^2)
+    - Best case O(n) Worst case O(n^2)
     - If the array is nearly sorted, the runtime can be O(n) using the "noSwaps" version of bubble sort
 */
