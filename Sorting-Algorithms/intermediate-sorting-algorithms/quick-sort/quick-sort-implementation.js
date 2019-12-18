@@ -30,5 +30,15 @@ function pivot(arr, start = 0, end = arr.length - 1) {
 };
 
 function quickSort(arr, left = 0, right = arr.length - 1) {
-    let pivotIndex = pivot(arr, left, right);
+    let pivotIndex = pivot(arr, left, right); // this will return 3, which is the index the 4 would need to be at
 };
+
+quickSort([4,6,9,1,2,5,3])
+// [4,6,9,1,2,5,3]
+// [3,2,1,4,6,9,5]
+//        4
+// 3,2,1    6,9,5
+//     3      6
+// 2,1      5   9
+//   2
+// 1
