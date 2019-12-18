@@ -30,7 +30,17 @@ function pivot(arr, start = 0, end = arr.length - 1) {
 };
 
 function quickSort(arr, left = 0, right = arr.length - 1) {
-    let pivotIndex = pivot(arr, left, right); // this will return 3, which is the index the 4 would need to be at
+    if(left < right) {
+        let pivotIndex = pivot(arr, left, right); // this will return 3, which is the index the 4 would need to be at
+
+        // left side
+        quickSort(arr, left, pivotIndex - 1);
+
+        // right side
+        quickSort(arr, pivotIndex + 1, right);
+    };
+
+    return arr;
 };
 
 quickSort([4,6,9,1,2,5,3])
