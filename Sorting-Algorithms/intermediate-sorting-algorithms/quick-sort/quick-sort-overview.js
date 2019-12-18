@@ -10,6 +10,6 @@
     Big O Notation of Quicksort
     ===========================
     - Best & Average time complexity: O(n log n)
-    - Worst case time complexity: O(n^2)
+    - Worst case time complexity: O(n^2) This case happens when your pivot is always
     - Space Complexity: O(log n)
 */
